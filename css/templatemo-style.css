@@ -139,7 +139,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   z-index: 2;
-  background: #455871;
+  background: #fa5252;
   cursor: pointer;
   -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -247,7 +247,7 @@ ul {
 
 .b-blue {
   margin-bottom: -2px;
-  background-image: url(../img/first-bg.png);
+  background-image: url(../img/fourth-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -256,7 +256,7 @@ ul {
 }
 
 .b-red {
-  background-image: url(../img/second-bg.png);
+  background-image: url(../img/ui-ux.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -318,7 +318,7 @@ ul {
 
 .home-content .home-box-content {
   margin-top: 45px;
-	background-color: #455871;
+	background-color: #6a6c6e;
 	position: relative;
 	right: -100px;
 	padding: 30px;
@@ -457,7 +457,7 @@ ul {
 .projects-content .text-content {
   margin-left: 15px;
   margin-right: 15px;
-  background-color: #fff;
+  background-color: #6a6c6e;
   padding: 25px 30px;
   margin-top: -45px;
   position: relative;
@@ -468,12 +468,16 @@ ul {
   display: inline-block;
   padding-bottom: 5px;
   font-size: 22px;
-  color: #121212;
+  color: #eeeeee;
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 15px;
   border-bottom: 2px solid #eee;
+}
+
+.projects-content .text-content p{
+  color: #eeeeee;
 }
 
 .projects-content .primary-button a:hover {
@@ -1117,7 +1121,7 @@ body.lb-disable-scrolling {
   width: 10px;
   height: 10px;
   margin: 30px 5px;
-  background: #fff;
+  background: #6a6c6e;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
